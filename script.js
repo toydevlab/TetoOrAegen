@@ -191,6 +191,14 @@ function showResult() {
     document.querySelector('#result-weakness').innerText = result.weakness;
     document.querySelector('#result-best-match').innerText = result.bestMatch;
     document.querySelector('#result-worst-match').innerText = result.worstMatch;
+
+    // ▼▼▼▼▼▼ GTM으로 신호 보내는 코드 추가 ▼▼▼▼▼▼
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'result_view',
+        'result_type': finalType // 'Teto' 또는 'Aegen' 값을 함께 보냄
+    });
+    // ▲▲▲▲▲▲ GTM으로 신호 보내는 코드 추가 ▲▲▲▲▲▲
 }
 
 function restartTest() {
