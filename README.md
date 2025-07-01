@@ -4,7 +4,6 @@
 
 **🔗 지금 바로 테스트 해보기: [https://toydevlab.github.io/TetoOrAegen/](https://toydevlab.github.io/TetoOrAegen/)**
 
-*(위 링크는 예시이며, 본인의 깃허브 페이지 주소로 수정해주세요.)*
 
 ---
 
@@ -12,7 +11,6 @@
 
 ![프로젝트 미리보기 이미지](images/preview.png)
 
-*(프로젝트 폴더에 `preview.png`와 같은 이름으로 스크린샷을 추가해주세요.)*
 
 ---
 
